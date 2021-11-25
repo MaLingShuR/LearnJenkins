@@ -7,14 +7,10 @@ pipeline {
                 echo 'Hello Stage'
             }
         }
-    }
-    
-    stages {
         stage('Demo') {
             steps {
                 echo 'Demo Stage'
             }
         }
     }
-    
 }
